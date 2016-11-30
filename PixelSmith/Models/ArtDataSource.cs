@@ -7,13 +7,13 @@ namespace Models
 	public class ArtDataSource
 	{
 
-		public static string GetDailyArtQuote(int quoteID)
+		public static string GetDailyArtQuote2(int quoteID)
 		{
 
 			switch (quoteID)
 			{
 				case 1:
-					return "You don’t take a photograph, you make it. - Ansel Adams";
+					 return "You don’t take a photograph, you make it. - Ansel Adams";
 				case 2:
 					return "Creativity takes courage. - Henri Matisse";
                 case 3:
@@ -27,6 +27,7 @@ namespace Models
 		}
 		public static List<ArtProject> GetArtProjects()
 		{
+            //add an additional comment
 			var temp = new List<ArtProject>();
 			ArtProject art = null;
 
